@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #de74ec;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #608cf0;
+    text-decoration: none;
+}
+
+nav a:hover {
+  background-color: gray;
+  color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+section#menú ul {
+    list-style-type: none;
+}
+
+section#pedidos form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#pedidos label,
+section#pedidos input {
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

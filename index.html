@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = es>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Venta de comida a domicilio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Comida a domicilio</h1>
+      <nav>
+        <ul>
+          <li><a href="#menú">Menú</a></li>
+          <li><a href="#pedidos">Hacer un pedido</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="menú">
+      <h2>Menú</h2>
+      <ul>
+        <li>Plato 1</li>
+        <p>Hamburguesa con refresco</p>
+        <li>Plato 2</li>
+        <p>Hamburguesa con papas</p>
+        <li>Plato 3</li>
+        <p>Hambueguesa con papas y refresco</p>
+      </ul>
+    </section>
+    <section id="pedidos">
+      <h2>Hacer un pedido</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="dirección">Dirección:</label>
+        <input type="text" id="dirección" name="dirección">
+        <br>
+        <label for="teléfono">Teléfono:</label>
+        <input type="tel" id="teléfono" name="teléfono">
+        <br>
+        <label for="plato">Plato:</label>
+        <select id="plato" name="plato">
+          <option value="1">Plato 1</option>
+          <option value="2">Plato 2</option>
+          <option value="3">Plato 3</option>
+        </select>
+        <br>
+        <input type="submit" value="Hacer pedido">
+      </form>
+    </section>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p> Teléfono: <a href="Tel: 5621525777">562-152-5777</p></a>
+      <p> Email: <a href="Email: rickidios05@gmail.com">rickidios05@gmail.com</p></a>
+    </section>
+    <footer>
+      <p>Copyright © 2023 Comida a domicilio</p>
+    </footer>
+  </body>
+  <script src="script.js"></script> 
+</html>
